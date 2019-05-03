@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 3em;
+    width: 100%;
+    background-color: brown;
+}
+
+/* 侧边列表 */
+#side_list{
+     height: 39em;
+     width: 10em;
+     border-right: solid 1px black;
+     float: left;
+     /* background-color: blue;  */
+}
+
+/* logo */
+.logo{
+    position: absolute;
+    left: 2em;
+    top: 0.5em;
+}
+
+#logo_music{
+    width: 2em;
+    height: 2em;
+}
+
+#logo_text{
+    position: relative;
+    bottom: 0.3em;
+    line-height: 2em;
+    font-size: 24px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* 歌单 */
+.song_list{
+    width: 10em;
+    
+}
+
+.list_head,.list_mc{
+    width: 10em;
+    position: relative;
+    height: 2em;
+}
+
+
+
+
+.list_content{
+    position: absolute;
+    font-size: 1em;
+    left: 0.5em;
+    top:0.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.list_main_content{
+    position: absolute;
+    left: 2em;
+    top:0.5em;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.pointer:hover{
+    cursor: pointer;
+}
+/* 列表控制按钮 */
+.control_list{
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    right: 0.5em;
+    top: 0.5em;
+}
+
+.list_main_img{
+    position: absolute;
+    left: 0.5em;
+    top: 0.5em;
+    width: 1em;
+    height: 1em;
+}
